@@ -1,8 +1,7 @@
 import React,{useState} from 'react'
 import { SliderData } from './sliderdata';
 import{FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
-import { displayErrorToast, displaySuccessToast } from './alert';
-import Notify from './alert';
+
 
 const Slider = ({slides}) => {
   const[now,setNow]=useState(0)
