@@ -19,9 +19,9 @@ const Slider = ({slides}) => {
 
   return (
     <section className='slider'>
-      <FaArrowAltCircleLeft className='left-arrow' onClick={()=>{prevSlide();Notify();}}
+      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide()}
         />
-      <FaArrowAltCircleRight className='right-arrow' onClick={()=>{nextSlide(); Notify();}} />
+      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide()} />
     {SliderData.map((slide,index)=>{
      return(
       <div className={index===now?'slideActive':'slide'} key={index}>
