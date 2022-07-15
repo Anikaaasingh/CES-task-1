@@ -19,7 +19,7 @@
   top: 50%;
   right: 2vw;
   font-size: 5vw;
-  color: rgb(255, 255, 255);
+  color: rgb(0,0, 0);
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -28,24 +28,10 @@
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 2vw;
+ left: 2vw;
   font-size: 5vw;
-  color: rgb(255, 255, 255);
+  color: rgb(0,0, 0);
   z-index: 10;
   cursor: pointer;
   user-select: none;
 }
-
-/*@media 
-  (max-width: 600px){
-    body{
-      background-color: aquamarine;
-    }
-    left-arrow{
-      padding-left: 10px;
-    }
-    right-arrow{
-      padding-right: 0px;
-      position: absolute;
-    }
-  }*/
